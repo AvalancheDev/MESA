@@ -1,10 +1,10 @@
 # MESA
 
-![MESA](/screenshots/mesa.png)
-
 MESA stands for Material Electron SQLite Angular2
 
 This is your go to template for creating Electron apps with a Material UI. Included is a basic demo using angular and electron. It uses [ngrx] to manage state.
+
+![MESA](/screenshots/mesa.png)
 
 ## Install dependencies and build project
 
