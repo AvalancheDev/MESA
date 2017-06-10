@@ -1,0 +1,18 @@
+<md-toolbar color="primary">
+  <span>MESA Test App</span>
+</md-toolbar>
+
+<p>
+  <md-input-container>
+    <textarea #note mdInput placeholder="Write a note" style="width: 100%"></textarea>
+  </md-input-container>
+</p>
+<p><button (click)="saveNote(note.value) && note.value = ''" color="primary" md-raised-button>Submit Note</button></p>
+<br><br><br><br>
+<md-list>
+  <h3 md-subheader>Notes</h3>
+  <md-list-item *ngFor="let note of notes">
+    <md-icon md-list-icon>note</md-icon>
+    <h4 md-line>{{note}}</h4>
+  </md-list-item>
+</md-list>
