@@ -1,6 +1,6 @@
 # MESA
 
-![MESA](/screenshots/mesa.png")
+![MESA](/screenshots/mesa.png)
 
 MESA stands for Material Electron SQLite Angular2
 
