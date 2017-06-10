@@ -1,6 +1,6 @@
 # MESA
 
-MESA stands for Material Electron SQLite Angular2
+MESA stands for Material, Electron, SQLite, Angular2
 
 This is your go to template for creating Electron apps with a Material UI. Included is a basic demo using angular and electron. It uses [ngrx] to manage state.
 
@@ -23,6 +23,9 @@ In another terminal, run the following to actually see the electron app:
 ```bash
 $ npm run electron
 ```
+
+## About the demo
+The demo app is a basic notetaking application with persistance. You can type in a note and save it, and it will be loaded back in at the beginning of the next session. It's extremely basic, but it illustrates how to use Angular2, Electron, and SQLite to build a desktop application.
 
 ## Packaging
 
